@@ -30,4 +30,5 @@ MSE(Mean Squarred Error) : Test MSE(MEAN) = (test_y-train_mean_y)
 
                                           = 0.191127
 
-Even if predicted y^ = 0 for all test case. Then, Test MSE(zero) = (test_y-train_mean_y) =   0.190891
+Even if predicted y^ = 0 for all test case. Then, Test MSE(zero) = (test_y-train_mean_y) 
+                                                                 = 0.190891

@@ -1,5 +1,7 @@
 # Self-Driving-object
 
+##I followed Sully chen project for learning purpose.And modify it run in colab.
+
 ## 1.Dataset: 
 
 Two types of file in dataset. one file contains **Images** and another **data.txt**.

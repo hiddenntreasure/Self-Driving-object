@@ -16,7 +16,7 @@ Task is to predict the angle according to the image.
 
 ## 3.Exploratory Data analysis: 
 
-to get Python file [click hee](https://github.com/hiddenntreasure/Self-Driving-object/blob/master/EDA.ipynb)
+First run EDA.ipynb [click hee](https://github.com/hiddenntreasure/Self-Driving-object/blob/master/EDA.ipynb)
 
 First load the **data.txt**. From data.txt split the images_name/path and angle. Where,
 
@@ -42,7 +42,7 @@ Even if predicted y^ = 0 for all test case. Then, Test MSE(zero) = (test_y-train
 
 ## 5.Driving_data.py:
 
-To get driving_data.py file [click here](https://github.com/hiddenntreasure/Self-Driving-object/blob/master/driving_data_py.ipynb)
+Then Run Load_batch_wise.ipynb file [click here](https://github.com/hiddenntreasure/Self-Driving-object/blob/master/Load%20batch%20wise.ipynb)
 
 - It also split the data.txt dataset into two train and test
 - Then LoadTrainBatch,LoadTestBatch is used to load batch data. 
@@ -51,3 +51,17 @@ To get driving_data.py file [click here](https://github.com/hiddenntreasure/Self
     Note : here [-150:] is representing width.which start -150.and we know that -1 is the last element.so,-150 will be the 150th last element.
   - imresize function is used to reshape the image.
   - train_batch_pointer/val_batch_pointer is to track the last loaded image path. So,it declared as global variable.
+
+## 6. End to End Modeling:
+
+Then run Model.py [For model details : end to end Deep Learning](https://devblogs.nvidia.com/deep-learning-self-driving-cars/)
+
+## 7. Test Dataset:
+
+Run Test Dataset.ipynb
+
+Pick test images one after another. Predict angle and rotate the steering wheel according to the angle.
+
+It will give output like this:
+
+
